@@ -1,0 +1,23 @@
+{
+  "name": "simple-raycaster",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "files": [
+    "package.json",
+    "README.md",
+    "LICENSE",
+    "dist"
+  ],
+  "repository": "git@github.com:mathdroid/simple-raycaster",
+  "author": "<muhammad.mustadi@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.4.0",
+    "np": "^2.13.2"
+  },
+  "scripts": {
+    "release": "np",
+    "build": "babel src -d dist"
+  }
+}
