@@ -1,8 +1,20 @@
 const SimpleRaycaster = {
+  drawsCursor: () => true,
+  fillDirection: direction => {
+    direction[0] = 0;
+    direction[1] = 0;
+    direction[2] = -1;
+    return true;
+  },
+  fillOrigin: origin => {
+    origin[0] = 0;
+    origin[1] = 0;
+    origin[2] = 0;
+    return true;
+  },
+  getMaxLength: () => Infinity,
   getType: () => "simple",
-  getRayOrigin: () => [0, 0, 0],
-  getRayDirection: () => [0, 0, -1],
-  drawsCursor: () => true
+  hasAbsoluteCoordinates: () => false
 };
 
-module.exports = SimpleRaycaster;
+export default SimpleRaycaster;

@@ -1,13 +1,8 @@
 {
   "name": "simple-raycaster",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "main": "dist/index.js",
-  "files": [
-    "package.json",
-    "README.md",
-    "LICENSE",
-    "dist"
-  ],
+  "files": ["package.json", "README.md", "LICENSE", "dist"],
   "repository": "git@github.com:mathdroid/simple-raycaster",
   "author": "<muhammad.mustadi@gmail.com>",
   "license": "MIT",
